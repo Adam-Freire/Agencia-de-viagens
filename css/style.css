@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #80808029;
+    font-family: 'Raleway';
+}
+
+.topo{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+        
+}
+.topo-logo{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.topo-logo img{
+    width: 32px;
+    height: 32px;
+}
+
+.topo-logo p{
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+}
+
+.tamanho-maximo{
+    width:100%;
+    max-width: 1024px;
+    
+}
+
+       /*  /\TOPO/\  */
+
+/*  \/CONTEUDO PRINCIPAL\/  */
+
+.secao-formulario{
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/imagens/bahia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-orçamento{
+    margin:0 auto;
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+.orçamento-topo{
+    width: 100%;
+    background-color: #5d15d1;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orçamento-topo img{
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+}
+
+.orçamento-topo h1{
+    font-size: 14px;
+    color: #FFF;
+    margin-left: 5px;
+}
+
+.formulario{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+    box-sizing: border-box;
+
+}
+
+.formulario h2{
+    font-size: 22px;
+    margin: 0 0 24px 0;
+    width: 100%;
+}
+
+.formulario-escrito{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario-escrito label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.formulario-escrito input, .formulario select{
+    height: 32px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.formulario input{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.formulario-duplo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.formulario-duplo div{
+    width: calc(50% - 10px);
+}
+
+.formulario select{
+    padding: 0 3px;
+    
+}
+
+.radio{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.radio div{
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.radio input{
+   width: 15px;
+}
+
+.radio label {
+    margin-left: 8px;
+}
+
+.botao-formulario{
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    margin: 12px 0 0 0;
+}
+
+/* \/ SEÇÃO ORFETAS \/ */
+.box-ofertas, .anuncios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height:auto;
+    margin: 32px auto 0 auto;
+}
+
+.box-ofertas h2, .anuncios h2{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.box-ofertas h3, .anuncios h3{
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    font-weight: normal;
+}
+
+.box-ofertas span{
+    font-weight:bold;
+}
+
+.box-destino{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferta-rio{
+    position: relative;
+    width: calc(50% - 10px) ;
+    height: 100%;
+    
+}
+
+.oferta-quatro-destinos{
+    width: calc(50% - 10px) ;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oferta-quatro-destinos figure{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+.destino img{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    object-fit: cover;
+    width: 100%;
+}
+.oferta-rio img, .oferta-quatro-destinos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.oferta-rio figcaption, .oferta-quatro-destinos figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0 0 0/ 50%);
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    
+}
+
+.box-natureza{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.natureza-imagem{
+    width: calc(50% - 10px);
+    height: 100%;
+
+}
+
+.natureza-imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.natureza-escrito{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.natureza-escrito p{
+    color: gray;
+    font-size: 14px;
+    margin: 15px 0 0 0;
+}
+
+.rodape{
+    background-color: #5d15d1;
+    width: 100%;
+    margin: 32px 0 0 0;
+    
+}
+
+.box-rodape{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-rodape{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+    
+}
+
+.conteudo-rodape h2{
+    color: #fff;
+    margin: 0 0 15px 0;
+    font-size: 20px;   
+    
+}
+
+.rodape-contato-escrito{
+    margin: 5px 0 5px 0;
+}
+
+.rodape-contato-escrito img{
+    width: 18px;
+}
+
+.rodape-contato-escrito span{
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 0 10px;
+}
+
+
+@media (max-width: 1100px){
+    .tamanho-maximo{
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .botao-formulario{
+        width: 100%;
+    }
+    
+    .box-destino{
+        height: 100%;      
+        flex-direction:column;
+    }
+    .oferta-quatro-destinos{
+        width: 100%;
+    }
+    .oferta-rio, .oferta-quatro-destinos figure{
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+
+    .box-natureza{
+        flex-direction: column;
+        margin: 15px 0 0 0;
+    }
+
+    .natureza-imagem{
+        width: 100%;
+    }
+
+    .box-rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo-rodape{
+        width: 250px;
+    }
+}
+
+@media (max-width: 540px){
+    .formulario-duplo{
+        flex-direction: column;
+    }
+    .radio{
+        flex-direction: column;
+    }
+    .formulario-duplo div{
+        width: 100%;
+    }
+    
+    .radio div{
+        width: 100%;
+    }
+}
